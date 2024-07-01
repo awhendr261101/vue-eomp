@@ -1,0 +1,55 @@
+/* bootstrap icon  */ 
+
+/* Universal selector */
+
+/* custom variables */
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* logo  */
+img[alt="logo"]{
+    width: 5rem;
+}
+
+img[me]{
+  width: 25rem;
+}
+
+/* select all images  */
+
+image {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* App styling  */
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  nav {
+    padding: 30px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  nav a.router-link-exact-active {
+    color: #42b983;
+  }
+
+  /* main styling  */
+:is(.wrapper){
+    display: grid;
+    grid-template-rows: auto minmax(100dvh, 100%) auto;
+}
+
+
