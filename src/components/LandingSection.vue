@@ -22,19 +22,20 @@
 
 import {computed, onMounted, ref } from 'vue'
 import {useStore} from 'vuex'
-import Spinner from '@/components/Spinner.vue'
+// import Spinner from '@/components/Spinner.vue'
     const store = useStore()
-      const jobtitle =
-      computed(() => store.state.jobtitle)
-      const title = ref('a software developer')
-      const cnt = ref(-1)
-      function repeat() {
+    const jobtitle = computed(() => store.state.jobtitle)
+    const title = ref('a software developer')
+    const cnt = ref(-1)
+    function repeat() {
           try {
-              if (cnt.value == jobtitle.value?.length) cnt.value = 0;
-              title.value =
-                  jobtitle.value?.at(cnt.value)?.title;
-                  setTimeout(repeat, 2000)
-                  cnt.value++
+            if (cnt.value == jobtitle.value?.length) {
+                cnt.value = 0;
+            } else{
+                title.value = jobtitle.value?.at(cnt.value)?.title;
+                setTimeout(repeat, 2000)
+                cnt.value++
+            }
           } catch (e) {
               //
           }
