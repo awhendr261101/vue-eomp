@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg bg-dark-subtle position-sticky">
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/">
-        <img class="img-thumbnail" src=" https://awhendr261101.github.io/allImages/images/surveycorps.jpg" alt="logo" loading="lazy" >
+        <img class="img-thumbnail" src=" https://awhendr261101.github.io/allImages/images/vue-eomp/logo1.jpg" alt="logo" loading="lazy" >
     </router-link>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,6 +19,9 @@
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills" >Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects" >Projects</a>
@@ -42,5 +45,13 @@ export default {
 </script>
 
 <style>
-
+  nav{
+  height: 100px;
+  background-image: linear-gradient( #809fff,#000435);
+}
+  
+nav a {
+    font-weight: bold;
+    color: aliceblue !important;
+  }
 </style>

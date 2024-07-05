@@ -36,11 +36,7 @@ image {
   nav {
     padding: 30px;
   }
-  
-  nav a {
-    font-weight: bold;
-    color: #2c3e50;
-  }
+
   
   nav a.router-link-exact-active {
     color: #42b983;
@@ -50,6 +46,9 @@ image {
 :is(.wrapper){
     display: grid;
     grid-template-rows: auto minmax(100dvh, 100%) auto;
+}
+.container-fluid{
+  padding: 0 !important;
 }
 
 

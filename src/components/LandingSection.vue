@@ -47,6 +47,16 @@ import {useStore} from 'vuex'
 
 </script>
 
-<style>
-
+<style scoped>
+    .container {
+        background-image: url('https://awhendr261101.github.io/allImages/images/vue-eomp/galaxy1 (1).jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        height: 100%;
+        
+    }
+    #details {
+        color: aliceblue;
+    }
 </style>

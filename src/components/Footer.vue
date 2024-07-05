@@ -18,5 +18,10 @@ export default {
 </script>
 
 <style>
-
+footer{
+  background-image: linear-gradient( #000435,#809fff);
+}
+.lead{
+  color: aliceblue;
+}
 </style>
